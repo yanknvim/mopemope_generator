@@ -7,5 +7,7 @@ function updateText() {
 	let hiragana_2 = hiragana[Math.floor(Math.random() * hiragana.length)];
 
 	mopemope.textContent = hiragana_1 + hiragana_2 + hiragana_1 + hiragana_2;
+	tweetlink.href = `https://twitter.com/intent/tweet?text=『${mopemope.textContent}』&hashtags=もぺもぺジェネレータ&url=https://yanknvim.github.io/mopemope_generator/`;
+
 }
 
