@@ -29,7 +29,7 @@ body {
 .generate-tweet {
 	min-width: 100px;
     display: inline-block;
-    background: #1a8cd8; /* 背景色 */
+    background: #000000; /* 背景色 */
     color: #fff; /* 文字色 */
     padding: 12px 20px; /* 上下の余白、左右の余白 */
     text-decoration: none; /* デフォルトで入るリンクの下線を消す */
